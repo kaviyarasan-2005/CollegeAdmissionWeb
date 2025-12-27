@@ -1,0 +1,60 @@
+body{
+    background-image: url("/Asserts/register.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login{
+    background-color: rgba(188, 185, 185, 0.875);
+    /* border: 2px solid; */
+    width: 400px;
+    height: 380px;
+    border-radius: 20px;
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    text-align: center
+}
+.signup{
+    background-color: rgba(188, 185, 185, 0.875);
+    /* border: 2px solid; */
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    text-align: center
+}
+.head{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+form > label{
+
+    position: relative;
+    text-align: left;
+    padding-left:75px ;
+    display: block;
+    font-weight: bold;
+    padding-top: 20px;
+}
+form>input{
+    height: 25px;
+    width: 245px;
+}
+.termscondition{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.registerbtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 59, 29);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.logintxt{
+    padding: 20px;
+}
