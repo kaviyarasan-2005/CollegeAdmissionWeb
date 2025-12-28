@@ -1,7 +1,8 @@
 body{
     background-image: url("/Asserts/register.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
+    height: 95.1vh;
 }
 .login{
     background-color: rgba(188, 185, 185, 0.875);

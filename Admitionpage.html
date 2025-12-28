@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admission</title>
+    <link rel="stylesheet" href="CSS/Admisionpage.css">
 </head>
 <body>
-    <h1>Welcome to MKCE</h1>
+    <header class="welcome">
+        <!-- <a href="index.html" style="text-decoration: none;">signup</a> -->
+        <h1 class="head" >Welcome to MKCE</h1>
+    </header>
+   <div class="details">
+    <table  class="table">
+                
+            <tr style="font-weight: bold;">
+                <td>Course Name</td>
+                <td>Fees</td>
+            </tr>
+            <tr>
+                <td>CSE</td>
+                <td rowspan="3">120000</td>
+            </tr>
+            <tr>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>AI</td>
+            </tr>
+            <tr>
+                <td>Mech</td>
+                <td rowspan="2">60000</td>
+            </tr>
+            <tr>
+                <td>Civil</td>
+            </tr>
+            <tr>
+                <td>ECE</td>
+                <td rowspan="2">90000</td>
+            </tr>
+            <tr>
+                <td>EEE</td>
+            </tr>
+    </table>
+   </div>
+   <div class="register">
+    <h2>Register Here</h2>
+    <form action="Rollnumpage.html" class="form">
+        
+        <div>
+            <label for="">Name</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Phone No</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">Course Name</label>
+            <select name="course" id="course" >
+                <option  value="CSE">CSE</option>
+                <option  value="CSE">IT</option>
+                <option  value="CSE">AI</option>
+                <option  value="CSE">Mech</option>
+                <option  value="CSE">Civil</option>
+                <option  value="CSE">ECE</option>
+                <option  value="CSE">EEE</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="coursemode" id="coursemode">
+            <label for="coursemode"> Full time</label>
+        </div>
+        <button type="submit">register</button>
+    </form>
+   </div>
 </body>
 </html>
